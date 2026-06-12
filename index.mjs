@@ -1,6 +1,6 @@
 import TelegramBot from "node-telegram-bot-api";
 
-const bot = new TelegramBot(`${process.env.BOT_TOKEN}`);
+const bot = new TelegramBot(`5444163279:AAG6SER9oF5u9clhiAFCp3WiiXq_6g_zHPs`);
 
 bot.on("message", async (message) => {
   console.log("message");
